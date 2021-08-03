@@ -1,5 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.quality_service_delivery">
+
+    <!--  PERMISSIONS  -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
    <application
         android:label="quality_service_delivery"
         android:icon="@mipmap/ic_launcher">
