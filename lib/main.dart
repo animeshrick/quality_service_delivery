@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         designSize: Size(360, 690),
         builder: () => GetMaterialApp(
               debugShowCheckedModeBanner: false,
+              theme: ThemeData(fontFamily: 'prompt-italic'),
               home: SplashScreen(),
             ));
   }
