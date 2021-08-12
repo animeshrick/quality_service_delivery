@@ -33,6 +33,10 @@ class _DashboardState extends State<Dashboard> {
         leadingWidth: 0,
         title: Row(
           children: [
+            Image.asset(
+              logo,
+              height: 40,
+            ),
             IconButton(
               onPressed: () {},
               icon: Icon(Icons.near_me_outlined),

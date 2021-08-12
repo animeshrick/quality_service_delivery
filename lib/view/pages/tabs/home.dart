@@ -56,7 +56,7 @@ class _HomeState extends State<Home> {
                           elevation: 5,
                           shadowColor: black,
                           child: Padding(
-                            padding: const EdgeInsets.fromLTRB(0, 10, 0, 0),
+                            padding: const EdgeInsets.fromLTRB(5, 10, 5, 0),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
@@ -71,7 +71,7 @@ class _HomeState extends State<Home> {
                                 ),
                                 Flexible(
                                     child:
-                                        customText('Home Service', black, 15))
+                                        customText('Home Service', black, 13))
                               ],
                             ),
                           )),
@@ -112,7 +112,7 @@ class _HomeState extends State<Home> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Padding(
-                                padding: const EdgeInsets.fromLTRB(5, 5, 5, 0),
+                                padding: const EdgeInsets.fromLTRB(7, 5, 5, 0),
                                 child: Image.asset(
                                   offers,
                                 ),
